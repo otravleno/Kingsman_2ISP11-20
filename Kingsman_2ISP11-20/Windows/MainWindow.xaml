@@ -1,0 +1,128 @@
+﻿<Window x:Class="Kingsman_2ISP11_20.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kingsman_2ISP11_20.Windows"
+        mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="400">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF796BA3" Offset="0.41"/>
+            <GradientStop Color="#FFFFD7D7" Offset="1"/>
+            <GradientStop Color="#FF806C6C" Offset="1"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Image Source="/Снимок экрана 2023-04-21 121213-PhotoRoom.png-PhotoRoom.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0.45" Height="740" Width="671" Margin="-125,-7,-146,-299">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.855"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <StackPanel>
+            <TextBlock Text="Главная страница"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0 50 0 0" Foreground="Black" FontFamily="Cambria" />
+            
+            <Button x:Name="BtnService"
+                    
+                    Content="Услуги"
+                    Margin="0 45 0 0"
+                    Height="40"
+                    Width="250" 
+                    FontSize="18"
+                    Click="BtnService_Click" FontFamily="Candara" 
+                    >
+                <Button.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFC2A6BF" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.141"/>
+                        <GradientStop Color="#FF9E9E9E" Offset="0"/>
+                        <GradientStop Color="White" Offset="0"/>
+                    </RadialGradientBrush>
+                </Button.Background>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="BtnEmployees"
+                    Content="Сотрудники"
+                    Margin="0 30 0 0"
+                    Height="40"
+                    Width="250"
+                    FontSize="18"
+                    Click="BtnEmployees_Click" FontFamily="Candara" >
+                <Button.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFC2A6BF" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.141"/>
+                        <GradientStop Color="#FF9E9E9E" Offset="0"/>
+                        <GradientStop Color="White" Offset="0"/>
+                    </RadialGradientBrush>
+                </Button.Background>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="BtnClient"
+                    Content="Клиенты"
+                    Margin="0 30 0 0"
+                    Height="40"
+                    Width="250"
+                    FontSize="18" 
+ 
+                    Click="BtnClient_Click" FontFamily="Candara" >
+                <Button.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFC2A6BF" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.141"/>
+                        <GradientStop Color="#FF9E9E9E" Offset="0"/>
+                        <GradientStop Color="White" Offset="0"/>
+                    </RadialGradientBrush>
+                </Button.Background>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+        <Button x:Name="BtnSurprize" Margin="157,298,156,4" RenderTransformOrigin="0.5,0.5" Foreground="White"  
+            BorderThickness="0" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.697"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="/Снимок экрана 2023-04-21 121224-PhotoRoom.png-PhotoRoom.png"/>
+            </Button.Background>
+            <Image Margin="163,303,154,5" Source="/Снимок экрана 2023-04-21 121224-PhotoRoom.png-PhotoRoom.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90.4"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+
+    </Grid>
+</Window>

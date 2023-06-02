@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kingsman_2ISP11-20", "Kingsman_2ISP11-20\Kingsman_2ISP11-20.csproj", "{AA1F982F-7B18-4B7F-9DF6-639C8F33CAD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1F982F-7B18-4B7F-9DF6-639C8F33CAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1F982F-7B18-4B7F-9DF6-639C8F33CAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1F982F-7B18-4B7F-9DF6-639C8F33CAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1F982F-7B18-4B7F-9DF6-639C8F33CAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14778000-D5B8-4800-A1AB-CEE5C7E1E97B}
+	EndGlobalSection
+EndGlobal
